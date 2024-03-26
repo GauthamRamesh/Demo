@@ -1,9 +1,12 @@
 package Test1;
 
+import org.testng.annotations.Test;
+
 public class Pjt2Test {
 
-	public static void main(String[] args) {
-		System.out.println("hello");
+	@Test
+	public void m2(){
+		System.out.println("hi");
 	}
 
 }
